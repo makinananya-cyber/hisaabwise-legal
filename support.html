@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HisaabWise — Support</title>
+  <meta name="description" content="Support and help for the HisaabWise iOS personal-finance app." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --galaxy: #081F5C;
+      --planetary: #334EAC;
+      --universe: #7096D1;
+      --venus: #BAD6EB;
+      --sky: #D0E3FF;
+      --meteor: #F7F2EB;
+      --milky: #FFF9F0;
+      --ink: #1a2542;
+      --muted: #566080;
+      --line: #e3e8f2;
+      --max: 760px;
+    }
+    * { box-sizing: border-box; }
+    html { -webkit-text-size-adjust: 100%; }
+    body {
+      margin: 0;
+      font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      color: var(--ink);
+      background: var(--milky);
+      line-height: 1.65;
+      font-size: 17px;
+    }
+    header.hero {
+      background: linear-gradient(135deg, var(--galaxy) 0%, var(--planetary) 100%);
+      color: #fff;
+      padding: 56px 24px 48px;
+    }
+    .wrap { max-width: var(--max); margin: 0 auto; }
+    .brand { font-size: 15px; letter-spacing: 0.14em; text-transform: uppercase; font-weight: 600; color: #ffffff; margin: 0 0 12px; }
+    header.hero h1 { margin: 0; font-size: 34px; font-weight: 700; letter-spacing: -0.02em; color: #ffffff; }
+    header.hero .tag { margin: 16px 0 0; font-size: 15px; color: #ffffff; opacity: 0.9; }
+    main { padding: 40px 24px 72px; }
+    main .wrap > p:first-child { margin-top: 0; }
+    h2 {
+      font-size: 22px;
+      font-weight: 700;
+      letter-spacing: -0.01em;
+      margin: 44px 0 12px;
+      padding-top: 8px;
+      color: var(--galaxy);
+    }
+    h3 { font-size: 17px; font-weight: 600; margin: 24px 0 6px; color: var(--planetary); }
+    p, li { color: var(--ink); }
+    a { color: var(--planetary); text-decoration: underline; text-underline-offset: 2px; }
+    ul { padding-left: 22px; }
+    li { margin: 6px 0; }
+    .lead { font-size: 18px; color: var(--muted); }
+    .contact-card {
+      background: var(--sky);
+      border: 1px solid var(--venus);
+      border-radius: 16px;
+      padding: 24px 26px;
+      margin: 24px 0 8px;
+    }
+    .contact-card h2 { margin-top: 0; }
+    .contact-card .email { font-size: 20px; font-weight: 600; }
+    .contact-card .note { font-size: 15px; color: var(--muted); margin: 8px 0 0; }
+    .faq { border-top: 1px solid var(--line); margin-top: 8px; }
+    .faq details {
+      border-bottom: 1px solid var(--line);
+      padding: 6px 0;
+    }
+    .faq summary {
+      cursor: pointer;
+      font-weight: 600;
+      color: var(--galaxy);
+      padding: 12px 0;
+      list-style: none;
+      font-size: 17px;
+    }
+    .faq summary::-webkit-details-marker { display: none; }
+    .faq summary::before { content: "+ "; color: var(--planetary); font-weight: 700; }
+    .faq details[open] summary::before { content: "– "; }
+    .faq details p { margin: 0 0 14px; }
+    footer { border-top: 1px solid var(--line); padding: 28px 24px 56px; color: var(--muted); font-size: 14px; }
+    footer .wrap { display: flex; flex-direction: column; gap: 6px; }
+    @media (max-width: 560px) {
+      header.hero h1 { font-size: 27px; }
+      body { font-size: 16px; }
+    }
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <div class="wrap">
+      <p class="brand">HisaabWise</p>
+      <h1>Support</h1>
+      <p class="tag">Help with the HisaabWise personal-finance app</p>
+    </div>
+  </header>
+
+  <main>
+    <div class="wrap">
+      <p class="lead">Need a hand with HisaabWise? We're happy to help. The fastest way to reach us is by email — we aim to reply within 2 business days.</p>
+
+      <div class="contact-card">
+        <h2>Contact us</h2>
+        <p class="email"><a href="mailto:hisaabwise1@gmail.com">hisaabwise1@gmail.com</a></p>
+        <p class="note">When you write in, it helps to include your device model, iOS version, and a short description of what happened.</p>
+      </div>
+
+      <h2>About HisaabWise</h2>
+      <p>HisaabWise is a free personal-finance app that helps you track your spending, set a savings goal, and learn about money through short lessons. There are no ads, no subscriptions, and no in-app purchases.</p>
+
+      <h2>Frequently asked questions</h2>
+      <div class="faq">
+        <details>
+          <summary>How do I reset my password?</summary>
+          <p>On the sign-in screen, tap "Forgot password?" and enter your email address. We'll send a reset link to that address. Password resets require a verified email.</p>
+        </details>
+        <details>
+          <summary>I didn't get my verification or reset email.</summary>
+          <p>Check your spam or junk folder first. Make sure you used the same email you registered with. If it still hasn't arrived after a few minutes, email us at <a href="mailto:hisaabwise1@gmail.com">hisaabwise1@gmail.com</a>.</p>
+        </details>
+        <details>
+          <summary>How do I change my income, currency, or savings goal?</summary>
+          <p>Open the Account tab to update your display name, monthly income, savings goal, display currency, and language at any time. Your budget and reports update automatically.</p>
+        </details>
+        <details>
+          <summary>Does HisaabWise connect to my bank?</summary>
+          <p>No. HisaabWise does not link to any bank or card. You enter your income and expenses yourself, so you stay fully in control of what the app sees.</p>
+        </details>
+        <details>
+          <summary>How do I delete my account?</summary>
+          <p>Go to the Account tab and choose the delete-account option. Your account is deactivated immediately, and your personal data is permanently erased after 30 days. See our <a href="privacy.html">Privacy Policy</a> for details.</p>
+        </details>
+        <details>
+          <summary>Is my data secure?</summary>
+          <p>Yes. All data between the app and our servers is encrypted in transit, and passwords and security answers are stored only as secure one-way hashes. Read more in our <a href="privacy.html">Privacy Policy</a>.</p>
+        </details>
+        <details>
+          <summary>What age is HisaabWise for?</summary>
+          <p>HisaabWise is intended for users aged 16 and over.</p>
+        </details>
+        <details>
+          <summary>Is the financial content professional advice?</summary>
+          <p>No. HisaabWise provides general financial education and budgeting tools for personal use. It is not regulated financial, investment, tax, or legal advice.</p>
+        </details>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <div>© 2026 HisaabWise. All rights reserved.</div>
+      <div><a href="privacy.html">Privacy Policy</a></div>
+    </div>
+  </footer>
+</body>
+</html>
